@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 import tailwindcssAnimate from "tailwindcss-animate";
 
+var require = createRequire(import.meta.url);
+var module = { exports: {} };
+
 export default {
   mode: "jit",
   darkMode: ["class"],
